@@ -12,7 +12,7 @@ const BarraLateral = () => (
         <FiltroCard legenda="urgentes" contador={2} />
         <FiltroCard legenda="importantes" contador={4} />
         <FiltroCard legenda="normal" contador={6} />
-        <FiltroCard ativo legenda="todos" contador={20} />
+        <FiltroCard $ativo legenda="todos" contador={20} />
       </S.Filtros>
     </div>
   </S.Aside>
